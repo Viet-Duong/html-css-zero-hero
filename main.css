@@ -1,0 +1,48 @@
+
+.nav {
+    min-height: 42px;
+    background-color: #EF5122;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    
+}
+.nav-item {
+    flex: 1;
+}
+.form_row {
+    padding: 8px 0;
+    display: flex;
+}
+.column-layout {
+    margin-top: 36px;
+    padding: 12px 0;
+    background-color: #fff;
+    display: flex;
+
+}
+.column-item {
+    padding: 0 16px;
+    flex: 1;
+}
+.sidebar-one {
+    flex: 1;
+}
+.sidebar-two {
+    flex: 2;
+}
+.main-column {
+    flex: 3;
+}
+
+.feature-layout {
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-around;
+}
+.feature-item {
+    flex-basis: 30%; 
+}
