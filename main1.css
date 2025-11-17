@@ -1,0 +1,39 @@
+* {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* san pham 1 */
+.product-main {
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    gap: 15px;
+    background-color: blanchedalmond;
+}
+.anh1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.ten1 {
+    margin-bottom: 45px;
+    color: rgb(226, 15, 15);
+} 
+.mota1 {
+    font-size: 25px;
+    font-style;
+}  
+.gia1 {
+    font-size: 40px;
+}
+
+/* san pham 2 va 3 */
+.product-list {
+    display: flex;
+    justify-content: space-around;
+}
+.anh {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
