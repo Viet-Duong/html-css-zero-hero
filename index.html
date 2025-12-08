@@ -16,28 +16,80 @@
             <div class="grid">
                 <nav class="header__navbar">    
                     <ul class="header__navbar-list">
-                        <li class="header__navbar-item header__navbar-item--separate">Vao ung dung</li>
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            Vao ung dung
+                            <div class="header__qr">
+                                <img src="./assets/img/qr_code.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/google_play.png" alt="Google Play" class="header__qr-dowload-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/app_store.png" alt="App Store" class="header__qr-dowload-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
                         <li class="header__navbar-item">
-                            Ket noi
+                            <span class="header__navbar-title--no-pointer">Ket noi</span>
                             <a href="" class="header__navbar-icon-link">
-                                <i class="fa-brands fa-facebook"></i>
+                                <i class="header__navbar-icon fa-brands fa-facebook"></i>
                             </a>
                             <a href="" class="header__navbar-icon-link">
-                                <i class="fa-brands fa-instagram"></i>
+                                <i class="header__navbar-icon fa-brands fa-instagram"></i>
                             </a>
                         </li>
                     </ul>
     
                     <ul class="header__navbar-list">
-                        <li class="header__navbar-item">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
                             <a href="" class="header__navbar-item-link">
-                                <i class="fa-solid fa-bell"></i>
+                                <i class="header__navbar-icon-link fa-solid fa-bell"></i>
                                 Thong bao
                             </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thong bao moi nhan</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://down-vn.img.susercontent.com/file/5fb3f7b359a582f322ea39313e10260b@resize_w201_nl.webp" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">My pham OHUI chinh hang  </span>
+                                                <span class="header__notify-descriotion">Mo ta my pham</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://down-vn.img.susercontent.com/file/5fb3f7b359a582f322ea39313e10260b@resize_w201_nl.webp" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">My pham OHUI chinh hang  </span>
+                                                <span class="header__notify-descriotion">Mo ta my pham</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://down-vn.img.susercontent.com/file/5fb3f7b359a582f322ea39313e10260b@resize_w201_nl.webp" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">My pham OHUI chinh hang  </span>
+                                                <span class="header__notify-descriotion">Mo ta my pham</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tat ca</a>
+                                </footer>
+                            </div>
                         </li>
                         <li class="header__navbar-item">
                             <a href="" class="header__navbar-item-link">
-                                <i class="fa-solid fa-circle-question"></i>
+                                <i class="header__navbar-icon-link fa-regular fa-circle-question"></i>
                                 Tro giup
                             </a>
                         </li>
@@ -59,3 +111,4 @@
     </div>
 </body>
 </html>
+
