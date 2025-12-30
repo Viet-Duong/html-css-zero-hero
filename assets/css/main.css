@@ -281,14 +281,11 @@
     text-decoration: none;
 }
 
-.auth-form__controls {
-    margin-top: 80px;
-}
 
 .auth-form__controls {
     display: flex;
     justify-content: flex-end;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 .auth-form__controls-back {
     margin-right: 8px;
@@ -318,4 +315,25 @@
 
 .auth-form__socials--gg {
     background-color: var(--white-color);
+}
+
+.auth-form__help {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.auth-form__help--link {
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.auth-from__help-separate {
+
+    border-left: 1px solid var(--border-color);
+    height: 36px;
+    margin: 0 16px;
+}
+
+.auth-form__aside {
+    padding: 10px;
 }
