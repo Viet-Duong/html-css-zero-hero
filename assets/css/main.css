@@ -296,6 +296,7 @@
     padding: 12px 36px;
     display: flex;
     justify-content: space-between;
+    border-radius: 10px;
 }
 
 .auth-form__socials-icon {
