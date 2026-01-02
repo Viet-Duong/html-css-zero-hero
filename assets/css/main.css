@@ -1,5 +1,5 @@
 .header {
-    height: 120px;
+    height:  var( --header-height);
     background-image: linear-gradient(0, #fe6433, #f53e2d);
 }
 .header__navbar {
@@ -337,4 +337,44 @@
 
 .auth-form__aside {
     padding: 10px;
+}
+
+.modal {
+    display: none;
+}
+
+/* header with search */
+.header-with-search {
+    height: var(--header-with-search-height);
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    width: 200px;
+    
+}
+
+.header__logo-img {
+    width: 150px;
+    color: var();
+}
+
+.header__search {
+    background-color: var(--white-color);
+    height: 40px;
+    flex: 1;
+    border-radius: 2px;
+
+}
+
+.header__cart {
+    width: 150px;
+    text-align: center;
+}
+
+.header__cart-icon {
+    color: var(--white-color);
+    font-size: 2.4rem;
+
 }
