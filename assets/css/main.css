@@ -23,12 +23,14 @@
 .header__navbar-user {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .header__navbar-user-img {
     width: 22px;
     height: 22px;
     border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .header__navbar-user-name {
@@ -37,6 +39,59 @@
     font-weight: 400;
 }
 
+.header__navbar-user:hover .header__navbar-user-menu {
+    display: block;
+}
+
+.header__navbar-user-menu {
+    position: absolute;
+    padding: 4px ;
+    top: calc(100% + 9px);
+    right: 0;
+    width: 160px;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    list-style: none;  
+    z-index: 1;
+    box-shadow: 0 0 3px #ccc;
+    display: none;
+}
+
+.header__navbar-user-menu::before {
+    content: "";
+    position: absolute;
+    right: 5px;
+    top: -27px;
+    border-width: 16px 20px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+}
+
+.header__navbar-user-menu::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: 0;
+    width: 60%;
+    height: 11px;
+}
+
+.header__navbar-user-item {
+
+}
+
+.header__navbar-user-item a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.4rem;
+    padding: 4px 16px;
+    display: block;
+}
+
+.header__navbar-user-item a:hover {
+    background-color: #fafafa;
+}
 
 .header__navbar-item--has-qr:hover .header__qr {
     display: block;
@@ -58,7 +113,7 @@
 .header__navbar-item,
 .header__navbar-item-link,
 .header__navbar-icon-link {
-    display: inline-block;
+    display: flex;
     align-items: center;
 }
 
